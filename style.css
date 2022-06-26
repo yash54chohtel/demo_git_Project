@@ -1,11 +1,13 @@
-body{
-    margin: 0;padding: 0;
+body {
+
+    margin: 0;
+    padding: 0;
     background: rgb(244, 244, 242);
     font-family: sans-serif;
 
 }
 
-.nav_Bar{
+.nav_Bar {
     height: 10vh;
     width: 100%;
     border: 1px solid black;
@@ -14,27 +16,27 @@ body{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    
+
 }
 
-.logo{
+.logo {
     font-size: 1.4rem;
     font-weight: bold;
     color: white;
     margin-left: 0.8rem;
 }
 
-.nav_links ul{
+.nav_links ul {
     display: flex;
     margin-right: 0.6rem;
 }
 
-.nav_links ul li{
+.nav_links ul li {
     list-style: none;
     margin: 0 6px 0 6px;
 }
 
-.nav_links ul li a{
+.nav_links ul li a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -42,6 +44,30 @@ body{
     cursor: pointer;
 }
 
-.nav_links ul li a:hover{
+.nav_links ul li a:hover {
     color: rgb(255, 67, 67);
+
+}
+
+.box_section {
+    height: 50vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+
+}
+
+.box {
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(94, 94, 94);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+
 }
