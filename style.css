@@ -1,0 +1,25 @@
+body{
+    margin: 0;padding: 0;font-family: sans-serif;
+}
+
+.box_section{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+
+}
+
+.box{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(94, 94, 94);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
